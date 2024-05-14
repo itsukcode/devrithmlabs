@@ -8,15 +8,15 @@ const navBar = () => {
   return (
     <div className='nav'>
       <div className='logo'>
-       <Link href="/">UI SHADES</Link>
+       <Link href="/">FINRITHUM</Link>
       </div>
       
       <nav className='navbar'>
         <ul className='list'>
           <li><Link href="/">Home</Link></li>
-          <li><Link href="/shadesgenarator">Shades Genarator</Link></li>
-          <li><Link href="/">Color Picker</Link></li>
-          <li><Link href="/ui-shades">UI Shades</Link></li>
+          <li><Link href="/shadesgenarator">Crypto</Link></li>
+          <li><Link href="/">Market</Link></li>
+          <li><Link href="/ui-shades">News</Link></li>
           <li><Link href="/">Contact</Link></li>
         </ul>
       </nav>
